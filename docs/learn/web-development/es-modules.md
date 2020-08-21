@@ -94,7 +94,7 @@ module.exports.doBar = function doBar() {
 };
 ```
 
-This doesn't work in the browser, as it doesn't know what to do with CommonJS modules. While node now supports es modules natively, a lot of code is still written as CommonJS modules. If you want to use a library written in CommonJS, there are a couple of options to look into.
+This doesn't work in the browser, as it doesn't know what to do with CommonJS modules. Node now supports es modules natively, however, a lot of code is still written as CommonJS modules. If you want to use a library written in CommonJS, there are a couple of options to look into.
 
 ### Look for an es module distribution
 
